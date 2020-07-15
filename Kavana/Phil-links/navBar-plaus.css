@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #a60303;
+}
+.wrapper {
+    background: transparent;
+    position: fixed;
+     display: block;   
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 200px;
+    z-index: 12;
+    font-size: 16px;
+    font-family: 'FreighTextbook';
+    width: 100%;
+    letter-spacing: 0;
+    color: #424242;
+}
+.header-black-shell {
+    background: black;
+    position: fixed;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    height: 100px;
+    z-index: 12;
+}
+.header-orange-shell {
+    background: black;
+    position: fixed;
+    display: block;
+    background-color: orangered;
+    width: 100vw;
+L   height: 100px;
+}
