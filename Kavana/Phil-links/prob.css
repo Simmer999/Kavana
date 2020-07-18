@@ -1,0 +1,118 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background: #a60303;
+    /* overflow: hidden; */
+}
+.container {
+    height: 100vh;
+    position: relative;
+}
+        .black {
+            display: block;
+            background: #000000;
+            color: lime;
+            height: 50px;
+            width: 100%;
+        }
+
+        .nav-container {
+            position: relative;
+            height: 50px;
+        }
+        .logo {
+            /* display: inline-block;             */
+            float: left;
+            width: 40px;
+            height: 40px;
+            margin: 5px 100px 5px 5px;
+
+        }        
+        .logo > p {
+            /* display: inline; */
+            text-align: center;
+            margin: 0;
+            padding: 2px;
+            position: absolute;
+            top: 30%;
+        }
+        .btn-container {
+            float: left;
+            display: table-row-group;
+            width: 440px;
+            height: 50px;
+            padding-top: 18px;
+        }
+        .navbtn {
+            display: inline-block;
+            background-color: blueviolet;
+            border-radius: 12px;
+            width: 95px;
+        }
+        .navbtn1 {
+            margin-left: 4px;
+        }
+.orange {
+    display: block;
+    background: orangered;
+    color: purple;
+    height: 60px;
+    width: 100%;
+}
+.spacer {
+    display: block;
+    width: 20px;
+    height: 60px;
+
+}
+.red {
+    display: block;
+    background: red;
+    color: black;
+    height: auto;
+    min-height: calc(100% -300px);
+    width: 100%;
+    padding:  5px 5px 50px 5px;
+
+}
+.footer {
+    display: block;
+    background: black;
+    color: purple;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
+@media only screen and (max-width: 450px) {
+    .logo {
+        display: none;    
+    }     
+    .black {
+           height: 78px;
+    }
+    .btn-container {
+        width: 280px;
+        height: 78px;
+    }
+    .orange {
+        display: none;
+    }
+    .navbtn1 {
+        margin-left: 0px;
+    }
+    .btn-container {
+        padding-left: 80px;
+    }
+ }
+ @media only screen and (max-width: 360px) {
+
+
+
+ }
