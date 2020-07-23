@@ -7,12 +7,13 @@
       Verdana, sans-serif;
 }
 
-.qqq {
+.main {
     display: inline-block;
     background-color: #a60303;
     height: 200vh;
     width: 70%;
     z-index: 0;
+    position: relative;
 }
 .Bus_name {
     float: left;
@@ -21,13 +22,18 @@
     margin-bottom: 20px;
     letter-spacing: 5px;
 }
-.www {
+.byline {
+    margin-left: 7%;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    letter-spacing: 5px;
+    width: 280px;
+}
+.navbar {
     float: right;
     background-color: black;
     height: 200vh;
     width: 30%;
-
-
 }
 .navi {
     display: block;
@@ -46,9 +52,13 @@
     text-align: center;
 
 }
+h1 {
+    font-size: 48px;
+    font-family: Impact,  'Arial Narrow Bold', sans-serif;
+}
 h2 {
-    font-size: 12pt;
-    letter-spacing: 1px;
+    font-size: 16pt;
+    letter-spacing: 2px;
     color: white;
 }
 .filler {
@@ -134,4 +144,30 @@ h2 {
     margin-left: -28px;
     margin-top: 25px;
     color: white;
+}
+
+
+.quote {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    margin: 90% 18% 0;
+    top: 80%;
+    color: white;
+    letter-spacing: 5px;
+}
+#quote2 {
+    margin-top: 50%;
+}
+@media only screen and (max-width: 460px){
+    h2 {
+        font-size: 12px;
+        margin: 0 0 0 8px;
+    }
+
+}
+@media only screen and (min-width: 460px){
+    .quote {
+    margin-left: 35%;
+    }
 }
