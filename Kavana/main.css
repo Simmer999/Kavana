@@ -12,7 +12,6 @@
     background-color: #a60303;
     height: 200vh;
     width: 70%;
-    z-index: 0;
     position: relative;
 }
 .Bus_name {
@@ -153,8 +152,8 @@ h2 {
     text-align: center;
     margin: 90% 18% 0;
     top: 80%;
-    color: white;
-    letter-spacing: 5px;
+    color: black;
+    letter-spacing: 3px;
 }
 #quote2 {
     margin-top: 50%;
@@ -169,5 +168,14 @@ h2 {
 @media only screen and (min-width: 460px){
     .quote {
     margin-left: 35%;
+    }
+    .main {
+        height: 400vh;
+    }
+    .navbar {
+        height: 400vh;        
+    }
+    .container {
+        height: 400vh;
     }
 }
