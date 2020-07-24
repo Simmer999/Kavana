@@ -7,13 +7,55 @@
       Verdana, sans-serif;
 }
 
+/* Styling for the hosting page is at +- line 100.*/
+/* Styling for the design page is at +- line 150. */
+/* Styling for the contact page is at +- line 200. */
+/* Styling for the about page is at +- line 250. */
+/* Styling for the Business page is at +- line 50. */
+
+/* The following section is for styling that appears in all pages.*/
 .main {
+/* This entry regulates the left side of every page. */
     display: inline-block;
     background-color: #a60303;
     height: 200vh;
     width: 70%;
     position: relative;
 }
+.navbar {
+ /* This entry regulates the right side of every page. */
+    float: right;
+    background-color: black;
+    height: 200vh;
+    width: 30%;
+}
+        .navi {
+            display: block;
+            height: 25vh;
+            color: white;
+            position: relative;
+        }
+        #item {
+            position: absolute;
+            margin-left: -40px;
+            margin-top: -6px;
+            top: 50%;
+            left: 50%;
+            text-align: center;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .Bus_name {
     float: left;
     margin-left: 7%;
@@ -28,31 +70,9 @@
     letter-spacing: 5px;
     width: 280px;
 }
-.navbar {
-    float: right;
-    background-color: black;
-    height: 200vh;
-    width: 30%;
-}
-.navi {
-    display: block;
 
-    height: 25vh;
-    color: white;
-    position: relative;
-}
-#item {
-    position: absolute;
-
-    margin-left: -40px;
-    margin-top: -6px;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-
-}
 h1 {
-    font-size: 48px;
+    font-size: 24px;
     font-family: Impact,  'Arial Narrow Bold', sans-serif;
 }
 h2 {
@@ -71,8 +91,84 @@ h2 {
     /* float: left; */
     margin-left: 7%;
     display: inline-block;
-    width: 300px;
+    width: 200px;
 }
+
+
+.quote {
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    margin: 90% 18% 0;
+    top: 80%;
+    color: black;
+    letter-spacing: 3px;
+}
+#quote2 {
+    margin-top: 50%;
+}
+@media only screen and (max-width: 460px){
+    h2 {
+        font-size: 12px;
+        margin: 0 0 0 8px;
+    }
+
+}
+@media only screen and (min-width: 460px){
+    .quote {
+    margin-left: 35%;
+    }
+    .main {
+        height: 400vh;
+    }
+    .navbar {
+        height: 400vh;        
+    }
+    .container {
+        height: 400vh;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Theis section is for the Hosting page. */
+
+.article_container {
+    display: inline-block;
+
+}
+
+.articles {
+    display: inline-block;
+}
+
+/* end of the Hosting Page. */
+
+
+
+
+
+
+
+
+
+/* This section is for the Design page. */
+
 .vision_statement {
     color: black;
     text-align: left;
@@ -145,37 +241,64 @@ h2 {
     color: white;
 }
 
+/* End of the Design page. */
 
-.quote {
-    display: inline-block;
-    width: 160px;
-    text-align: center;
-    margin: 90% 18% 0;
-    top: 80%;
-    color: black;
-    letter-spacing: 3px;
-}
-#quote2 {
-    margin-top: 50%;
-}
-@media only screen and (max-width: 460px){
-    h2 {
-        font-size: 12px;
-        margin: 0 0 0 8px;
-    }
 
-}
-@media only screen and (min-width: 460px){
-    .quote {
-    margin-left: 35%;
-    }
-    .main {
-        height: 400vh;
-    }
-    .navbar {
-        height: 400vh;        
-    }
-    .container {
-        height: 400vh;
-    }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
