@@ -9,9 +9,9 @@
 /* Styling for the Business page is at +- line 50. */
 /* Styling for the hosting page is at +- line 100.*/
 /* Styling for the design page is at +- line 150. */
-/* Styling for the contact page is at +- line 200. */
-/* Styling for the about page is at +- line 250. */
-/* Styling for media queries is at +- line 300. */
+/* Styling for the contact page is at +- line 300. */
+/* Styling for the about page is at +- line 400. */
+/* Styling for media queries is at +- line 500. */
 
 
 /* The following section is for styling that appears in all pages.*/
@@ -238,6 +238,84 @@
 }
 
 /* End of the Design page. */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* This section is for the Contact page. */
+
+.form {
+    margin-left: 7%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

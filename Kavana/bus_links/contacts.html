@@ -3,13 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Hosting</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>  
     <div></div>  
     <div class="main">
         <h1 class="Bus_name">Contact Us</h1>
+        <div class="form">
+            <form>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br><br>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+                <input type="submit" value="Submit"><br><br>                
+                <label for="cars">Choose a car:</label>
+                <select id="cars" name="cars">
+                  <option value="volvo">Volvo</option>
+                  <option value="saab">Saab</option>
+                  <option value="fiat">Fiat</option>
+                  <option value="audi">Audi</option>
+                </select><br><br>
+                <input type="submit"><br><br>
+                <textarea name="message" rows="10" cols="25">
+                    The cat was playing in the garden.
+                    </textarea>
+                <br><br>
+
+
+
+<p>Be aware that the 'action,' 'target,' and 'method' attributes are stated 
+    within the "form" opening tag. </p>
+<p>The name attribute, however, is stated in the opening "input" tag.</p>
+<P>There is more to know about GET and POST too.</P>
+<p>There is also the fieldset, legend, datalist, and output elements that I 
+    should consider a while but I am too tired now.</p>
+              </form>
+        </div>
+        <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+            Your browser does not support the HTML canvas tag.</canvas>
+            
+            <script>
+            var c = document.getElementById("myCanvas");
+            var ctx = c.getContext("2d");
+            ctx.moveTo(0,0);
+            ctx.lineTo(200,80);
+            ctx.stroke();
+            </script>
     </div>
 
     <div class="navbar" id="navi-flex">
