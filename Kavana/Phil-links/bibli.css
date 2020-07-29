@@ -6,102 +6,26 @@
 }
 body {
     background-color: #a60303;
-
-/* Top Nav Bar begins below.*/   
-}
-#navbar__top {
-    display: flex;
-    height: 80px;
-    justify-content: flex-end;
-    background-color: black;
-}
-.logo {
-    position: absolute;
-    background: blue;
-}
-svg {
-    float: left;
-    width: 80px;
-    height: 80px;
-}
-.nav-bar-inner {
-    display: flex;
-    align-items: center; 
-    width: auto;
-    height: auto;
-    justify-content: flex-end;
-}
-.site-nav-menu-item {
-    display: inline;
-    display: flex;
-    text-decoration: none;    
-    margin-right:20px;
-}
-#side__nav {
-    display: block;
-}
-a {
-    text-decoration: none;
-    color: white;
-}
-h2 {
-    letter-spacing: 2px;
 }
 
-/* footer begins below.*/
-/* footer {
-    width: 100vw;
-    height: auto;
-    margin-bottom: px;
-    background: black;
-} */
-.footer {
-    display: block;
+.sticky_header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 16px;
     background: black;
     color: purple;
-    position: fixed;
-    height: 30px;
-    width: 100%;
-    bottom: 0;
-}
+  }
 
 
-.footer-container {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-}
-.half-container {
-    display: inline-block;
-    margin: auto; 
-}
-.footer-item a h2 {
-
-    color: coral;
-}
-.footer-item {
-    display: inline-block;
-    margin: 40px;  
-}
-html, body {
-    height: 100%;
-    margin: 0;
-}
-.wrapper {
-    min-height: 100%;
-    margin-bottom: -100px;
-}
-.footer, .push {
-    height: 50px;
-}
-/* Footer ends. */
-
-
-/* Bibliography */
 h1, h2{
     font-weight: normal;
 }
+
+.main_container {
+    padding-top: 100px;
+}
+
 
 #wrapper{
     width: 90%;
@@ -113,6 +37,7 @@ h1, h2{
     padding: 0 0 20px;
     overflow: hidden;
     border: 1px solid lightgray;
+    background-color: rosybrown;
 }
 
 #page-banner{
@@ -141,6 +66,9 @@ h1, h2{
 
 #book-list, #add-book, #tabbed-content{
     margin: 30px;
+}
+#book-list {
+    background-color: rosybrown;
 }
 
 #book-list ul, #tabbed-content ul{
@@ -209,3 +137,31 @@ h1, h2{
     display: block;
     clear: both;
 }
+
+.footer {
+    display: block;
+    background: black;
+    color: purple;
+    position: fixed;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+}
+        .btn-container {
+            /* float: left; */
+            /* display: table-row-group; */
+            display: flex;
+            width: 100%;
+            height: 30px;
+            padding: 7px 0;
+            justify-content: space-evenly;
+        }
+        .navbtn {
+            display: inline-block;
+            background-color: blueviolet;
+            border-radius: 12px;
+            width: 75px;
+        }
+        .navbtn1 {
+            margin-left: 5px;
+        }
