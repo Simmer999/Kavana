@@ -170,3 +170,23 @@ h1, h2{
         .navbtn1 {
             margin-left: 5px;
         }
+
+#tabbed-content li {
+    display: inline-block;
+    padding: 10px 14px;
+    background: #9361bf;
+    color: #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+#tabbed-content .panel {
+    display: none;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+#tabbed-content .panel.active {
+    display: block;
+}

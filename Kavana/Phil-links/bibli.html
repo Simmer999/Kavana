@@ -51,8 +51,25 @@
 			<label for="hide">Hide all books.</label>
 	    	<input type="text" placeholder="Add a book..." />
 	    	<button>Add</button>
-	    </form>
-
+		</form>
+		
+		<!-- About and Contact -->
+		<div id="tabbed-content">
+			<ul class="tabs">
+				<li data-target="#about" class="active">About</li>
+				<li data-target="#contact">Contact</li>
+			</ul>
+			<div class="panel active" id="about">
+				<p>Content for "About" tab.</p>
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Reiciendis officiis obcaecati esse at dicta dolor perspiciatis itaque quaerat recusandae omnis sit consequatur repellendus, voluptatum tempora animi, modi est officia eum!</p>
+			</div>
+			<div class="panel" id="contact">
+				<p>Content for "Contact" tab.</p>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit nam sed laudantium maiores voluptas assumenda deserunt ducimus omnis natus, quaerat aliquid libero expedita vero laborum tempore possimus facere quasi modi.</p>
+			</div>
+		</div>
+		<!-- End about and Contact -->
+		
     </div>
 	<script src="app.js"></script>
 	<!-- <script src="bibli.js"></script> -->
@@ -73,10 +90,16 @@
 <div class="footer">                
   <div class="btn-container">
     <button class="navbtn navbtn1"><h6>Possibility</h6></button>
-    <button class="navbtn"><h6>Possibility</h6></button>
-    <button class="navbtn"><h6>Possibility</h6></button>
-    <button class="navbtn"><h6>Possibility</h6></button> 
-  </div>
+	<div class="sections"><a href="plaus.html">
+		<button class="navbtn">Plausability</button></a>
+	  </div>  
+	  <div class="sections"><a href="prob.html">
+		<button class="navbtn">Probability</button></a>
+	  </div>  
+	  <div class="sections"><a href="facts.html">
+		<button class="navbtn">Facts</button></a>
+	  </div>  
+
 
 </div>
 </div>

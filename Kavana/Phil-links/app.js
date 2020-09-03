@@ -8,7 +8,7 @@ list.addEventListener("click", function(e) {
     }
 });
 
-//Add book-list.
+//Add books.
 const addForm = document.forms["add-book"];
 addForm.addEventListener("submit", function(e) {
     e.preventDefault();
@@ -23,20 +23,18 @@ const deleteBtn = document.createElement("span");
 deleteBtn.textContent = "delete";
 bookName.textContent = value;
 
-//Add classes.
-bookName.classList.add("name");
-deleteBtn.classList.add("delete");
-
-
-//Append to document.
+//Apeend to document
 li.appendChild(bookName);
 li.appendChild(deleteBtn);
 list.appendChild(li);
 
-
-
+//Add classes.
+bookName.classList.add("name");
+deleteBtn.classList.add("delete");
 });
 
+
+//Hide books
 const hideBox = document.querySelector("#hide");
 hideBox.addEventListener("change", function(e) {
     if(hideBox.checked) {
@@ -45,3 +43,40 @@ hideBox.addEventListener("change", function(e) {
         list.style.display = "initial";
     }
 });
+
+//Filter books
+const searchBar = document.forms["search-books"].querySelector("input");
+searchBar.addEventListener("keyup", function(e) {
+    const term = e.target.value.toLowerCase();
+    const books = list.getElementsByTagName("li");
+    Array.from(books).forEach(function(book) {
+       const title = book.firstElementChild.textContent;
+       if(title.toLowerCase().indexOf(term) != -1) {
+            book.style.display = "block"
+        } else {
+            book.style.display = "none";
+       }
+    })
+})
+
+//Tabbed content
+const tabs = document.querySelector(".tabs");
+const panels = document.querySelectorAll(".panel");
+tabs.addEventListener("click", function(e){
+   if(e.target.tagName == "LI") {
+        const targetPanel = document.querySelector(e.target.dataset.target);
+        panels.forEach(function(panel) {
+            if (panel == targetPanel) {
+                panel.classList.add("active");
+            } else {
+                panel.classList.remove("active");
+            }
+        })
+   }
+})
+
+
+
+
+
+// The Origin of the Work of Art
